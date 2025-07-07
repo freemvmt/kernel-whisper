@@ -8,7 +8,7 @@ else
 fi
 
 if [[ -z "${2-}" ]]; then
-    PRIVATE_KEY="id_ed25519"
+    PRIVATE_KEY="id_ed25519_gh"
 else
     PRIVATE_KEY="$2"
 fi

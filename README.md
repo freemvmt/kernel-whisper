@@ -19,7 +19,7 @@ Host mlx
 	IdentityFile ~/.ssh/id_mlx_computa
 ```
 
-2. Run `./send.sh` from root. If you named the host something other than `mlx` in the config, or your GitHub private key is called something other than `id_ed25519`, then include these as args:
+2. Run `./send.sh` from root. If you named the host something other than `mlx` in the config, or your GitHub private key is called something other than `id_ed25519_gh`, then include these as args:
 
 ```sh
 ./send.sh [host] [private_key]
