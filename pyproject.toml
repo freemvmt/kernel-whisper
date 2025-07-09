@@ -3,16 +3,19 @@ name = "kernel-whisper"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.9"
 dependencies = [
-    "accelerate>=1.8.1",
-    "datasets>=3.6.0",
-    "evaluate>=0.4.4",
-    "matplotlib>=3.10.3",
-    "notebook>=7.4.4",
-    "numpy>=2.3.1",
-    "polars>=1.31.0",
-    "torch>=2.7.1",
-    "torchvision>=0.22.1",
-    "transformers>=4.53.1",
+  "accelerate>=1.8.1",
+  "datasets>=3.6.0",
+  "evaluate>=0.4.4",
+  "llvmlite>=0.43.0",
+  "matplotlib>=3.9.4",
+  "notebook>=7.4.4",
+  "numba>=0.60.0",
+  "numpy<2",
+  "openai-whisper>=20250625",
+  "sounddevice>=0.5.2",
+  "torch>=2.7.1",
+  "torchaudio>=2.7.1",
+  "transformers>=4.53.1",
 ]
